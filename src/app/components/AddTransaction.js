@@ -31,7 +31,7 @@ export function AddTransaction(props){
            <hr className="line"/>
            <form onSubmit={handleTransactionHistory}>
                 <div>
-                    <label htmlFor="text-input" className="label-text mb-2 fw-bold">Text</label>
+                    <label htmlFor="text-input" className="label-text mb-2 fw-bold">Enter Text</label>
                     <input 
                         className="input-text mb-2"
                         type="text" 
@@ -44,7 +44,7 @@ export function AddTransaction(props){
                     />
                 </div>
                 <div>
-                    <label htmlFor="amount" className="label-amount fw-bold">Amount</label>
+                    <label htmlFor="amount" className="label-amount fw-bold">Enter Amount</label>
                     <div className="info mb-2">(negative - expense, positive - income)</div>
                     <input
                         className="input-amount mb-3" 
